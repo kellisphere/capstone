@@ -39,7 +39,7 @@ shinyUI(pageWithSidebar(
                                     <li>sentDetect in R: <a href="http://www.inside-r.org/packages/cran/openNLP/docs/sentDetect">http://www.inside-r.org/packages/cran/openNLP/docs/sentDetect</a></li>
                                     </ol>
                                     ')),
-      tabPanel("About", p(HTML('This is a project for the Coursera Data Science Capstone. My code repository is located on <a href="https://github.com">GitHub</a>.')))
+      tabPanel("About", p(HTML('This is a project for the Coursera Data Science Capstone. My code repository is located on <a href="https://github.com/kellisphere/capstone">GitHub</a>.')))
     )
   )
 ))

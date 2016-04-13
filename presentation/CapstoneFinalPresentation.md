@@ -33,11 +33,12 @@ left:40%
 
 The beautiful thing about language, even though we have so many words available to us, about 4000 words will cover 90% of what is being used, and many of those are the simple elements of language that join the words of interest, with "The" being at the top of the use list. My predictor starts with "the" when no entry has been made and it can quickly build from there.
 
-The product:
+The product: 
 ========================================================
 
 I made the product simple to use. The user can select the type of n-gram they would like to use, basically, how many words do you want to look at for predicting the next word, in sets of 2, 3, and 4. The next word is displayed below the entry. I also provided a combo choice that utilizized <a href="https://en.wikipedia.org/wiki/Katz%27s_back-off_model">Katz backoff model</a> for predicting as an additional option.
 
+My app, the <a href="https://kellisphere.shinyapps.io/capstone/">Natural language predictor</a> on Shiny.io.
 
 References: 
 =======================================================
@@ -50,4 +51,4 @@ Katz backoff model : <a href="https://en.wikipedia.org/wiki/Katz%27s_back-off_mo
 
 Ngram tokenizer <a href="https://books.google.com/books?id=hO7sBQAAQBAJ&pg=PA306&lpg=PA306&dq=function(x)+NGramTokenizer(x,+Weka_control(min+%3D+1,+max+%3D1))&source=bl&ots=BIOg9y39P7&sig=EOKSSdDkisIePL_HoZmmA_DNcMg&hl=en&sa=X&ved=0ahUKEwi-jJKA68_LAhVW22MKHdV2CoU4ChDoAQghMAE#v=onepage&q=function(x)%20NGramTokenizer(x%2C%20Weka_control(min%20%3D%201%2C%20max%20%3D1))&f=false">Automated Data Collection with R</a> ebook by Simon Munzert, Christian Rubba, Peter MeiBner
 
-The complete code source: 
+The complete code source: <a href="https://github.com/kellisphere/capstone">Github repository</a>

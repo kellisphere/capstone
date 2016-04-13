@@ -1,4 +1,5 @@
 # Load libraries
+library(shiny)
 suppressMessages(library(caTools))
 suppressMessages(library(RWeka))
 suppressMessages(library(hash))
@@ -11,6 +12,7 @@ suppressMessages(library(ggplot2))
 suppressMessages(library(R.utils))
 suppressMessages(library(googleVis))
 suppressMessages(library(qdap))
+suppressMessages(library(hash))
 suppressMessages(library(NLP))
 suppressMessages(library(openNLP))
 
